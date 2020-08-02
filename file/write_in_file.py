@@ -1,0 +1,7 @@
+my_file2 = open("people4.txt", "w")
+my_file2.write("Abhishek - Gurgaon\n ")
+my_file2.write("Ranveer - Delhi")
+my_file2 = open("people4.txt")
+my_data1 = my_file2.read()
+print(my_data1)
+my_file2.close()
